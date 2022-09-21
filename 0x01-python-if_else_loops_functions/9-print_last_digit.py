@@ -1,1 +1,6 @@
-include now
+#!/usr/bin/python3
+# Author - Mary Syomiti
+
+def print_last_digit(number):
+    print(abs(number) % 10, end="")
+    return (abs(number) % 10)
